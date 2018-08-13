@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FRAGMENT_PAGE -->
+    <!-- history button -->
+    <dimen name="fragment_page_size_history_btn_width">45dp</dimen>
+    <dimen name="fragment_page_size_history_btn_height">40dp</dimen>
+    <dimen name="fragment_page_size_history_btn_margin">20dp</dimen>
+    <!-- camembert button -->
+    <dimen name="fragment_page_size_camembert_btn_width">42dp</dimen>
+    <dimen name="fragment_page_size_camembert_btn_height">42dp</dimen>
+    <dimen name="fragment_page_size_camembert_btn_margin">20dp</dimen>
+    <!-- comment button -->
+    <dimen name="fragment_page_size_comment_btn_width">32dp</dimen>
+    <dimen name="fragment_page_size_comment_btn_height">40dp</dimen>
+    <dimen name="fragment_page_size_comment_btn_margin">20dp</dimen>
+    <!-- Image -->
+    <dimen name="fragment_page_size_smiley_img_width">200dp</dimen>
+    <dimen name="fragment_page_size_smiley_img_height">200dp</dimen>
+
+    <!-- FRAGMENT_HISTORY -->
+    <!-- comment button -->
+    <dimen name="fragment_history_size_comment_btn_width">20dp</dimen>
+    <dimen name="fragment_history_size_comment_btn_height">20dp</dimen>
+    <dimen name="fragment_history_size_comment_btn_margin">20dp</dimen>
+    <!-- textView -->
+    <dimen name="fragment_history_size_text_marginStart">5dp</dimen>
+    <dimen name="fragment_history_size_text_textSize">12dp</dimen>
+
+    <!-- ACTIVITY CAMEMBERT -->
+    <!-- TextView -->
+    <dimen name="activity_camembert_size_text_paddingTop">50dp</dimen>
+    <dimen name="activity_camembert_size_text_marginStart">10dp</dimen>
+    <dimen name="activity_camembert_size_text_marginEnd">10dp</dimen>
+    <dimen name="activity_camembert_size_text_textSize">12sp</dimen>
+
+    <!-- DIALOG COMMENT -->
+    <!-- EditView -->
+    <dimen name="activity_camembert_size_input_marginTop">6dp</dimen>
+    <dimen name="activity_camembert_size_input_marginLeft">6dp</dimen>
+    <dimen name="activity_camembert_size_input_marginRight">6dp</dimen>
+    <dimen name="activity_camembert_size_input_marginBottom">6dp</dimen>
+
+    <!-- TOAST COMMENT -->
+    <!-- Layout -->
+    <dimen name="toast_comment_size_layout_paddingTop">25dp</dimen>
+    <dimen name="toast_comment_size_layout_paddingBottom">25dp</dimen>
+    <dimen name="toast_comment_size_layout_paddingLeft">25dp</dimen>
+    <dimen name="toast_comment_size_layout_paddingRight">25dp</dimen>
+</resources>

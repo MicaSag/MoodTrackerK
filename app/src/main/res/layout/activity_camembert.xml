@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        tools:context=".Controllers.Activities.CamembertActivity">
+
+    <TextView
+        android:id="@+id/activity_camembert_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/activity_camembert_size_text_paddingTop"
+        android:layout_marginStart="@dimen/activity_camembert_size_text_marginStart"
+        android:layout_marginEnd="@dimen/activity_camembert_size_text_marginEnd"
+        android:text="DISTRIBUTION OF YOUR MOODS"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/activity_camembert_size_text_textSize"
+        android:textStyle="bold"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/activity_camembert_piechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.github.mikephil.charting.charts.PieChart>
+
+</LinearLayout>

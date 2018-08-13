@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- References to the images smiley used for the different moods -->
+    <array name="array_smileys">
+        <item>@drawable/smiley_sad</item>
+        <item>@drawable/smiley_disappointed</item>
+        <item>@drawable/smiley_normal</item>
+        <item>@drawable/smiley_happy</item>
+        <item>@drawable/smiley_super_happy</item>
+    </array>
+    <!-- References to the images smiley used for the different moods -->
+    <array name="array_history">
+        <item>@id/activity_history_7</item>
+        <item>@id/activity_history_6</item>
+        <item>@id/activity_history_5</item>
+        <item>@id/activity_history_4</item>
+        <item>@id/activity_history_3</item>
+        <item>@id/activity_history_2</item>
+        <item>@id/activity_history_1</item>
+    </array>
+    <!-- history comment -->
+    <array name="array_history_comment">
+        <item>Aujourd hui</item>
+        <item>Hier</item>
+        <item>Avant-hier</item>
+        <item>Il y a trois jours</item>
+        <item>Il y a quatre jours</item>
+        <item>Il y a cinq jours</item>
+        <item>Il y a six jours</item>
+        <item>Il y a une semaine</item>
+        <item>Il y a plus d une semaine</item>
+        <item>Il y a plus d un mois</item>
+    </array>
+    <!-- mood text -->
+    <array name="array_mood_text">
+        <item>Sad</item>
+        <item>disappointed</item>
+        <item>Normal</item>
+        <item>Happy</item>
+        <item>Super Happy</item>
+    </array>
+</resources>

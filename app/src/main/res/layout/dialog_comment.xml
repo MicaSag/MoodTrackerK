@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/dialog_comment_input"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_camembert_size_input_marginTop"
+            android:layout_marginLeft="@dimen/activity_camembert_size_input_marginLeft"
+            android:layout_marginRight="@dimen/activity_camembert_size_input_marginRight"
+            android:textSize="15sp"
+            android:layout_marginBottom="@dimen/activity_camembert_size_input_marginBottom"/>
+</LinearLayout>

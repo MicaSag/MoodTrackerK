@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/fragment_page_rootview"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             tools:context="com.happiness.ministry.moodtrackerk.Controllers.Fragments.PageFragment">
+
+    <!-- History Button -->
+    <Button
+        android:id="@+id/fragment_page_history_btn"
+        android:layout_width="@dimen/fragment_page_size_history_btn_width"
+        android:layout_height="@dimen/fragment_page_size_history_btn_height"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fragment_page_size_history_btn_margin"
+        android:background="@drawable/ic_history_black"
+        />
+
+    <!-- Camembert Button -->
+    <Button
+        android:id="@+id/fragment_page_camembert_btn"
+        android:layout_width="@dimen/fragment_page_size_camembert_btn_width"
+        android:layout_height="@dimen/fragment_page_size_camembert_btn_height"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fragment_page_size_camembert_btn_margin"
+        android:background="@drawable/camembert_hole"
+        />
+
+    <!-- Comment Button -->
+    <Button
+        android:id="@+id/fragment_page_comment_btn"
+        android:layout_width="@dimen/fragment_page_size_comment_btn_width"
+        android:layout_height="@dimen/fragment_page_size_comment_btn_height"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/fragment_page_size_comment_btn_margin"
+        android:background="@drawable/ic_note_add_black"
+        />
+
+    <!-- Smiley image -->
+    <ImageView
+        android:id="@+id/fragment_page_smiley_img"
+        android:layout_width="@dimen/fragment_page_size_smiley_img_width"
+        android:layout_height="@dimen/fragment_page_size_smiley_img_height"
+        android:layout_gravity="center"
+        android:src="@drawable/smiley_happy"
+        />
+
+</FrameLayout>

@@ -2,5 +2,18 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#ff00796b</color>
+
+    <!-- Background colors used for the different moods -->
+    <array name="colorPagesViewPager">
+        <item name="faded_red">#ffde3c50</item>
+        <item name="warm_grey">#ff9b9b9b</item>
+        <item name="cornflower_blue_65">#a5468ad9</item>
+        <item name="light_sage">#ffb8e986</item>
+        <item name="banana_yellow">#fff9ec4f</item>
+    </array>
+
+    <!-- Background Toast comment -->
+    <color name="colorToastBackground">#323232</color>
+
 </resources>
